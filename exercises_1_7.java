@@ -1,5 +1,7 @@
 /*
 (Approximating ) can be computed using the following formula:
+Write a program that displays the result of
+Use 1.0 instead of 1 in your program.
  */
 package programming;
 
