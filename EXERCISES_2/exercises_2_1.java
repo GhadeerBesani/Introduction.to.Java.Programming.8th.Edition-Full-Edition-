@@ -12,11 +12,17 @@ public class exercises_2_1 {
 
    
     public static void main(String[] args) {
-        //reads a Celsius degree in double from the console
+       // Create new Scanner object
+       Scanner input=new Scanner(System.in);
+       
+       // Reads a Celsius degree in double from the console
         System.out.println("Enter degree in Celsius:");
-        Scanner input=new Scanner(System.in);
         double Celsius=input.nextDouble();
+       
+       // Convert Celsius to Fahrenheit
         double Fahrenheit=( 9.0 / 5)*Celsius + 32; //9.0/5 instead of 9/5 because 9/5 yields 1 in Java
+       
+       // Display results
         System.out.println(Celsius +" Celsius"+ " is "+ Fahrenheit+" in Fahrenheit");
     }
     
