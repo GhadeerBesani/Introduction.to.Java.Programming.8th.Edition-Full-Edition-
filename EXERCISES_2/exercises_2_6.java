@@ -14,12 +14,12 @@ public class exercises_2_6 {
 
     public static void main(String[] args) {
         // Create new Scanner object
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
         // Read the number
         System.out.println("Enter number between 1 and 1000:");
         
-        int number=input.nextInt();
+        int number = input.nextInt();
         
         int digitOnes = number % 10;   // Extract Ones digit
         number = number / 10;          // Remove the extracted digit
