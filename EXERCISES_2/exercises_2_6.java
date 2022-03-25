@@ -21,15 +21,15 @@ public class exercises_2_6 {
         
         int number=input.nextInt();
         
-        int digitOnes=number%10;   // Extract Ones digit
-        number=number/10;          // Remove the extracted digit
+        int digitOnes = number % 10;   // Extract Ones digit
+        number = number / 10;          // Remove the extracted digit
         
-        int digitTens=number%10;   // Extract Tens digit
-        number=number/10;          // Remove the extracted digit
+        int digitTens = number % 10;   // Extract Tens digit
+        number = number / 10;          // Remove the extracted digit
         
-        int digitHundred=number%10;   // Extract Hundred digit
+        int digitHundred = number % 10;   // Extract Hundred digit
         
-        int sum=digitOnes+digitTens+digitHundred;  // Sum the digits in an integer
+        int sum = digitOnes + digitTens + digitHundred;  // Sum the digits in an integer
         
         // Display results
         System.out.println("The sum of the digits is "+sum);
