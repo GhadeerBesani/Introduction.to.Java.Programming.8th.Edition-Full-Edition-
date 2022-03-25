@@ -15,12 +15,12 @@ public class exercises_2_7 {
         Scanner input=new Scanner(System.in);
         
         // Read the number of minutes
-        System.out.println("enter the minutes:");
+        System.out.println("Enter the Minutes:");
         int minutes=input.nextInt();
         
         // Compute the number of years and days
-        int years=minutes/525600;
-        int days=(minutes%525600)/1440;
+        int years=minutes /525600;
+        int days=(minutes % 525600) / 1440;
         
         // Display results
         System.out.println(minutes +" minutes is approximately "+years+" years and "+days+" days");
