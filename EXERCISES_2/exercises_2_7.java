@@ -19,7 +19,7 @@ public class exercises_2_7 {
         int minutes=input.nextInt();
         
         // Compute the number of years and days
-        int years=minutes /525600;
+        int years=minutes / 525600;
         int days=(minutes % 525600) / 1440;
         
         // Display results
