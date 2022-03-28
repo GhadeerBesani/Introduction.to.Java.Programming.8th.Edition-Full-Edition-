@@ -8,10 +8,7 @@ displays the interest for the next month in two versions: (a) Use dialog boxes t
 obtain input and display output; (b) Use console input and output. 
  */
 
-/**
- *
- * @author Ghadeer
- */
+
 
 import javax.swing.JOptionPane;
 
@@ -19,8 +16,6 @@ public class exercises_2_12_a {
 
     
     public static void main(String[] args) {
-        // Create a 
-        
         
         // Reads the balance and the annual percentage interest rate
         String balance = JOptionPane.showInputDialog("Enter the Balance:");
